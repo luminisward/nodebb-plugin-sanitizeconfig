@@ -19,6 +19,8 @@
   "staticDirs": {
     "static": "./static"
   },
-  "acpScripts": ["static/lib/admin.js"],
+  "modules": {
+    "../admin/plugins/sanitizeconfig": "static/lib/admin.js"
+  },
   "templates": "static/templates"
 }

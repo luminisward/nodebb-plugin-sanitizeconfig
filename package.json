@@ -1,31 +1,19 @@
 {
   "name": "nodebb-plugin-sanitizeconfig",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "luminisward",
     "email": "luminisward@vip.qq.com"
   },
   "description": "A NodeBB Plugin that modify default html sanitization config.",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "keywords": [
     "nodebb",
     "plugin"
   ],
   "license": "MIT",
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "main": "library.js",
   "nbbpm": {
-    "compatibility": "^1.13.0"
+    "compatibility": "^2.0.0"
   },
   "homepage": "https://github.com/luminisward/nodebb-plugin-sanitizeconfig#readme",
   "repository": {
